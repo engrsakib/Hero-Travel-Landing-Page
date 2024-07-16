@@ -5,12 +5,17 @@
   }
 
   /* Banner Input */
+  .banner{
+    width: 90%;
+    height: auto;
+  }
   .bannerText h2{
-    font-size: 2rem;
+    font-size: 1.21rem;
   }
   .bannerInput {
     flex-direction: column;
     width: 287px;
     height: 288px;
+    margin-top: 1.4rem;
   }
 }
