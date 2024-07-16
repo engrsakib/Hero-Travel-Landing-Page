@@ -1,0 +1,71 @@
+/* Desktop Design */
+
+/* font -> Mulish*/
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* color section */
+.primaryColor{
+    color:  rgb(255, 84, 0);
+}
+
+/* shearde style */
+.mulish-light {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+.container {
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: 0.5rem auto;
+  border-radius: 1rem;
+}
+.displayFlex {
+  display: flex;
+}
+/* navBar style here */
+.navBar {
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  /* border: 2px solid red; */
+}
+.navImg {
+  align-items: center;
+  width: 280px;
+}
+.navImg img {
+  width: 48px;
+  height: auto;
+  margin-right: 0.4rem;
+}
+.navImg h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 2.8rem;
+  text-align: left;
+}
+
+.navOption{
+    width: auto;
+}
+.navOption ul{
+    list-style: none;
+    gap: 3rem;
+}
+.navOption ul li a{
+    text-decoration: none;
+     color: black; 
+}
+
+/* Banner Design here*/
+.banner{
+    background-image: url("../B9A2-Hero-Travel/Images/background.png");
+}
