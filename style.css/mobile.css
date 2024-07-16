@@ -1,1 +1,16 @@
 /* Mobile Design */
+@media screen and (max-width: 576px) {
+  .navBar {
+    display: none;
+  }
+
+  /* Banner Input */
+  .bannerText h2{
+    font-size: 2rem;
+  }
+  .bannerInput {
+    flex-direction: column;
+    width: 287px;
+    height: 288px;
+  }
+}
