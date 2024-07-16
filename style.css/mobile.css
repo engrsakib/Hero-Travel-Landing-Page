@@ -3,17 +3,17 @@
   .navBar .navOption {
     display: none;
   }
-  .mobileMenue{
+  .mobileMenue {
     display: inline;
     cursor: pointer;
   }
 
   /* Banner Input */
-  .banner{
+  .banner {
     width: 90%;
     height: auto;
   }
-  .bannerText h2{
+  .bannerText h2 {
     font-size: 1.21rem;
   }
   .bannerInput {
@@ -24,27 +24,32 @@
   }
 
   /* people Tour */
-  .peopleTour{
+  .peopleTour {
     flex-direction: column-reverse;
     width: 90%;
     margin: 0 auto;
     height: auto;
-
   }
-  .peopleTourTxt{
+  .peopleTourTxt {
     width: 90%;
     margin-left: 0.7rem;
   }
-  .H2{
+  .H2 {
     font-size: 2rem;
   }
-  .pra{
-    color: rgb(0,0,0);
+  .pra {
+    color: rgb(0, 0, 0);
     text-align: left;
     line-height: 1.4rem;
   }
-  .btn{
+  .btn {
     width: 100%;
     margin-top: 1rem;
+  }
+  .peopleTourImg {
+    width: 100%;
+  }
+  .peopleTourImg img {
+    width: 100%;
   }
 }

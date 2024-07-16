@@ -157,6 +157,7 @@ select {
 .peopleTourTxt{
   width: 40%;
   margin-left: 0.7rem;
+  padding-right: 0.8rem;
 }
 .H2{
   color: rgb(0,0,0);
@@ -164,15 +165,17 @@ select {
 }
 .pra{
   color: rgb(0,0,0);
-  text-align: left;
+  text-align: justify;
   line-height: 1.5rem;
+  word-spacing: 5px;
+  letter-spacing: 1px;
 }
 .listPra{
  margin-left: 1.5rem;
  list-style: disc;
 }
 .peopleTourImg{
-  width: 100%;
+  width: 55%;
 }
 .peopleTourImg img{
   width: 100%;
