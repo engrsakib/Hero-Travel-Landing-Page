@@ -1,7 +1,11 @@
 /* Mobile Design */
 @media screen and (max-width: 576px) {
-  .navBar {
+  .navBar .navOption {
     display: none;
+  }
+  .mobileMenue{
+    display: inline;
+    cursor: pointer;
   }
 
   /* Banner Input */
@@ -17,5 +21,30 @@
     width: 287px;
     height: 288px;
     margin-top: 1.4rem;
+  }
+
+  /* people Tour */
+  .peopleTour{
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+
+  }
+  .peopleTourTxt{
+    width: 90%;
+    margin-left: 0.7rem;
+  }
+  .H2{
+    font-size: 2rem;
+  }
+  .pra{
+    color: rgb(0,0,0);
+    text-align: left;
+    line-height: 1.4rem;
+  }
+  .btn{
+    width: 100%;
+    margin-top: 1rem;
   }
 }

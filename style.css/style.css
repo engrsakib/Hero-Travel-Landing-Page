@@ -90,7 +90,7 @@
   padding-top: 4rem;
   text-align: center;
 }
-.bannerText h2 {
+.bannerText h2, H2{
   color: rgb(255, 255, 255);
   font-family: Mulish;
   font-size: 3.31rem;
@@ -98,13 +98,16 @@
   line-height: 4.72rem;
   letter-spacing: 0%;
 }
-.bannerText p {
+.bannerText p, .pra {
   color: rgb(255, 255, 255);
   font-family: Mulish;
   font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.7rem;
   text-align: center;
+}
+.mobileMenue{
+  display: none;
 }
 .bannerInput {
   width: 70%;
@@ -119,6 +122,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
+  backdrop-filter: blur(4px);
 }
 .bannerInput input,
 select {
@@ -130,7 +134,7 @@ select {
   outline: none;
   padding-left: 0.7rem;
 }
-.bannerInput button {
+.bannerInput button, .btn {
   width: 174px;
   height: 52px;
   border-radius: 8px;
@@ -139,4 +143,37 @@ select {
   border: none;
   outline: none;
   cursor: pointer;
+}
+/* people tour */
+.peopleTour{
+  min-height: 400px;
+  /* border: solid red 2px; */
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.peopleTourTxt{
+  width: 40%;
+  margin-left: 0.7rem;
+}
+.H2{
+  color: rgb(0,0,0);
+  font-size: 3rem;
+}
+.pra{
+  color: rgb(0,0,0);
+  text-align: left;
+  line-height: 1.5rem;
+}
+.listPra{
+ margin-left: 1.5rem;
+ list-style: disc;
+}
+.peopleTourImg{
+  width: 100%;
+}
+.peopleTourImg img{
+  width: 100%;
 }
